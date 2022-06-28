@@ -1,0 +1,12 @@
+{
+  "title": "Invalid API_KEY Response",
+  "type": "object",
+  "properties": {
+    "cod": {
+      "type": "number"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}

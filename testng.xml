@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/java/backend/rest-assured/openWeather">
+        <classes>
+            <class name="tests.OpenWeatherMap">
+                <methods>
+                    <include name="testLatLongUsingDataProviderCheckCityAndCountry"/>
+                    <include name="testSchemaValidation"/>
+                    <include name="testInvalidAPI_KEY"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
